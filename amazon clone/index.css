@@ -1,0 +1,48 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    padding: 10px;
+}
+.submain:nth-child(2){
+    width: 7%;
+    display: flex;
+}
+.submain{
+    border: 1px solid none;
+    height: 40px;
+}
+.amazon_icon{
+    width: 70px;
+    height: 40px;
+}
+.amazon_location{
+    width: 30px;
+    padding-top: 10px;
+}
+.submain_amazon_location2{
+    margin-left: 2px;
+}
+.deliver{
+    font-size: 15px;
+    color: rgb(247, 241, 234);
+}
+.india{
+    font-size: 25px;
+}
+.search_image{
+    width: 30px;
+}
+.search_main{
+    width: 45%;
+}
+.search{
+    width: 80%;
+}
